@@ -95,6 +95,9 @@ public extension TableViewReorderDelegate {
 public class ReorderController: NSObject {
     
     // MARK: - Public interface
+
+    /// Before capturing snapshot for cell, caller can use this handler to pre-configure
+    var prepareForSnapshot: ((UITableViewCell) -> ())?
     
     /// The delegate of the reorder controller.
     public weak var delegate: TableViewReorderDelegate?

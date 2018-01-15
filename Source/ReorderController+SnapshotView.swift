@@ -31,6 +31,9 @@ extension ReorderController {
         tableView.reloadData()
         
         guard let cell = tableView.cellForRow(at: indexPath) else { return }
+
+        prepareForSnapshot.flatMap { $0(cell) }
+
         let cellFrame = tableView.convert(cell.frame, to: superview)
         
         UIGraphicsBeginImageContextWithOptions(cell.bounds.size, false, 0)
