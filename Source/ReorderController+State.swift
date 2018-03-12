@@ -80,6 +80,8 @@ extension ReorderController {
         
         cellProxies.values.forEach { $0.removeFromSuperview() }
         cellProxies = [:]
+
+        onReorderFinished.flatMap { $0() }
     }
     
 }

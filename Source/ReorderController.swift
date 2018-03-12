@@ -81,7 +81,10 @@ public class ReorderController: NSObject {
     
     /// Whether or not autoscrolling is enabled
     public var isAutoScrollEnabled = true
-    
+
+    /// On reorder finish completion
+    public var onReorderFinished: (() -> ())?
+
     // MARK: - Internal state
     
     weak var tableView: UITableView?

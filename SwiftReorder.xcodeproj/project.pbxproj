@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		664597682022758500FF6B32 /* NewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664597672022758500FF6B32 /* NewTestViewController.swift */; };
-		6645976A20227D6100FF6B32 /* TableViewReorderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6645976920227D6100FF6B32 /* TableViewReorderDelegate.swift */; };
-		6645976C2022840200FF6B32 /* ReorderController+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6645976B2022840200FF6B32 /* ReorderController+State.swift */; };
-		6645976E20228D9C00FF6B32 /* ReorderController+ProxyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6645976D20228D9C00FF6B32 /* ReorderController+ProxyViews.swift */; };
-		664597702022A46C00FF6B32 /* ReorderController+Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6645976F2022A46C00FF6B32 /* ReorderController+Gesture.swift */; };
 		66DF25141D8080A000C19289 /* ReorderController+AutoScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF25101D8080A000C19289 /* ReorderController+AutoScroll.swift */; };
 		66DF25151D8080A000C19289 /* ReorderController+DestinationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF25111D8080A000C19289 /* ReorderController+DestinationRow.swift */; };
 		66DF25171D8080A000C19289 /* ReorderController+SnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF25131D8080A000C19289 /* ReorderController+SnapshotView.swift */; };
@@ -24,15 +20,15 @@
 		66FC50F91D5EE49D00CFCCCE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC50F01D5EE49D00CFCCCE /* RootViewController.swift */; };
 		66FC50FB1D5EE4CA00CFCCCE /* UITableView+Reorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC50FA1D5EE4CA00CFCCCE /* UITableView+Reorder.swift */; };
 		66FC50FD1D5EE4D600CFCCCE /* ReorderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC50FC1D5EE4D600CFCCCE /* ReorderController.swift */; };
+		A39245962056873D009AC579 /* ReorderController+Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39245922056873D009AC579 /* ReorderController+Gesture.swift */; };
+		A39245972056873D009AC579 /* TableViewReorderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39245932056873D009AC579 /* TableViewReorderDelegate.swift */; };
+		A39245982056873D009AC579 /* ReorderController+ProxyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39245942056873D009AC579 /* ReorderController+ProxyViews.swift */; };
+		A39245992056873D009AC579 /* ReorderController+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39245952056873D009AC579 /* ReorderController+State.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		660256931CE6A5170029CB5F /* SwiftReorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftReorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		664597672022758500FF6B32 /* NewTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestViewController.swift; sourceTree = "<group>"; };
-		6645976920227D6100FF6B32 /* TableViewReorderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewReorderDelegate.swift; sourceTree = "<group>"; };
-		6645976B2022840200FF6B32 /* ReorderController+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReorderController+State.swift"; sourceTree = "<group>"; };
-		6645976D20228D9C00FF6B32 /* ReorderController+ProxyViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReorderController+ProxyViews.swift"; sourceTree = "<group>"; };
-		6645976F2022A46C00FF6B32 /* ReorderController+Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReorderController+Gesture.swift"; sourceTree = "<group>"; };
 		66DF25101D8080A000C19289 /* ReorderController+AutoScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ReorderController+AutoScroll.swift"; path = "Source/ReorderController+AutoScroll.swift"; sourceTree = "<group>"; };
 		66DF25111D8080A000C19289 /* ReorderController+DestinationRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ReorderController+DestinationRow.swift"; path = "Source/ReorderController+DestinationRow.swift"; sourceTree = "<group>"; };
 		66DF25131D8080A000C19289 /* ReorderController+SnapshotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ReorderController+SnapshotView.swift"; path = "Source/ReorderController+SnapshotView.swift"; sourceTree = "<group>"; };
@@ -46,6 +42,10 @@
 		66FC50F01D5EE49D00CFCCCE /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = Example/RootViewController.swift; sourceTree = SOURCE_ROOT; };
 		66FC50FA1D5EE4CA00CFCCCE /* UITableView+Reorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITableView+Reorder.swift"; path = "Source/UITableView+Reorder.swift"; sourceTree = "<group>"; };
 		66FC50FC1D5EE4D600CFCCCE /* ReorderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReorderController.swift; path = Source/ReorderController.swift; sourceTree = "<group>"; };
+		A39245922056873D009AC579 /* ReorderController+Gesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ReorderController+Gesture.swift"; path = "Source/ReorderController+Gesture.swift"; sourceTree = "<group>"; };
+		A39245932056873D009AC579 /* TableViewReorderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewReorderDelegate.swift; path = Source/TableViewReorderDelegate.swift; sourceTree = "<group>"; };
+		A39245942056873D009AC579 /* ReorderController+ProxyViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ReorderController+ProxyViews.swift"; path = "Source/ReorderController+ProxyViews.swift"; sourceTree = "<group>"; };
+		A39245952056873D009AC579 /* ReorderController+State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ReorderController+State.swift"; path = "Source/ReorderController+State.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,12 +95,12 @@
 		660256A81CE6A72F0029CB5F /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				A39245922056873D009AC579 /* ReorderController+Gesture.swift */,
+				A39245942056873D009AC579 /* ReorderController+ProxyViews.swift */,
+				A39245952056873D009AC579 /* ReorderController+State.swift */,
+				A39245932056873D009AC579 /* TableViewReorderDelegate.swift */,
 				66FC50FA1D5EE4CA00CFCCCE /* UITableView+Reorder.swift */,
-				6645976920227D6100FF6B32 /* TableViewReorderDelegate.swift */,
 				66FC50FC1D5EE4D600CFCCCE /* ReorderController.swift */,
-				6645976F2022A46C00FF6B32 /* ReorderController+Gesture.swift */,
-				6645976B2022840200FF6B32 /* ReorderController+State.swift */,
-				6645976D20228D9C00FF6B32 /* ReorderController+ProxyViews.swift */,
 				66DF25131D8080A000C19289 /* ReorderController+SnapshotView.swift */,
 				66DF25111D8080A000C19289 /* ReorderController+DestinationRow.swift */,
 				66DF25101D8080A000C19289 /* ReorderController+AutoScroll.swift */,
@@ -177,19 +177,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6645976E20228D9C00FF6B32 /* ReorderController+ProxyViews.swift in Sources */,
-				664597702022A46C00FF6B32 /* ReorderController+Gesture.swift in Sources */,
+				A39245992056873D009AC579 /* ReorderController+State.swift in Sources */,
 				66FC50F91D5EE49D00CFCCCE /* RootViewController.swift in Sources */,
 				66FC50FD1D5EE4D600CFCCCE /* ReorderController.swift in Sources */,
 				66DF25141D8080A000C19289 /* ReorderController+AutoScroll.swift in Sources */,
+				A39245962056873D009AC579 /* ReorderController+Gesture.swift in Sources */,
 				66FC50F81D5EE49D00CFCCCE /* NonMovableViewController.swift in Sources */,
 				66DF25151D8080A000C19289 /* ReorderController+DestinationRow.swift in Sources */,
-				6645976A20227D6100FF6B32 /* TableViewReorderDelegate.swift in Sources */,
+				A39245972056873D009AC579 /* TableViewReorderDelegate.swift in Sources */,
 				66FC50F11D5EE49D00CFCCCE /* AppDelegate.swift in Sources */,
 				66FC50F71D5EE49D00CFCCCE /* LongListViewController.swift in Sources */,
 				66FC50FB1D5EE4CA00CFCCCE /* UITableView+Reorder.swift in Sources */,
 				66DF25171D8080A000C19289 /* ReorderController+SnapshotView.swift in Sources */,
-				6645976C2022840200FF6B32 /* ReorderController+State.swift in Sources */,
+				A39245982056873D009AC579 /* ReorderController+ProxyViews.swift in Sources */,
 				66FC50F51D5EE49D00CFCCCE /* GroupedViewController.swift in Sources */,
 				66FC50F21D5EE49D00CFCCCE /* BasicViewController.swift in Sources */,
 				66FC50F41D5EE49D00CFCCCE /* EffectsViewController.swift in Sources */,
