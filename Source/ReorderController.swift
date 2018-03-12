@@ -83,7 +83,7 @@ public class ReorderController: NSObject {
     public var isAutoScrollEnabled = true
 
     /// On reorder finish completion
-    public var onReorderFinished: (() -> ())?
+    public var onReorderFinished: ((IndexPath) -> ())?
 
     // MARK: - Internal state
     
